@@ -13,11 +13,11 @@ function handleClick(e) {
 function greet(TimeString){
 let TimeSplit=[];
 let array=[];
-array=TimeString.split(":");
-for (let i = 0; i < array.length; i++) {
-  array2.push(parseInt(array[i]));
+TimeSplit=TimeString.split(":");
+for (let i = 0; i < TimeSplit.length; i++) {
+  array.push(parseInt(TimeSplit[i]));
 }
-if(array2[0]<12)
-  return "Good morning";
+if(array[0]<12)
+  return "Good Morning";
 }
 /* Write your implementation of displayMessage() */
