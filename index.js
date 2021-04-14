@@ -19,5 +19,7 @@ for (let i = 0; i < TimeSplit.length; i++) {
 }
 if(array[0]<12)
   return "Good Morning";
+if((array[0]<17)&&(array[0]>12))
+return "Good Afternoon";
 }
 /* Write your implementation of displayMessage() */
