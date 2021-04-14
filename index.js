@@ -21,8 +21,8 @@ if(array[0]<12)
   return "Good Morning";
 if((array[0]<17)&&(array[0]>12))
 return "Good Afternoon";
-}
-if(array[0]>17){
+
+if(array[0]>17)
   return "Good Evening";
 }
 /* Write your implementation of displayMessage() */
